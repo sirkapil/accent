@@ -1,6 +1,6 @@
 # User Settings | Edit there as per required
 
-title: accent
+title: SirKapil
 url: "https://sirkapil.github.io/"
 baseurl: "/accent"
 
@@ -20,19 +20,14 @@ copyright: Kapil Chaudhary
 intro: false         # Tip: Remove the span from site_heading if intro is set to true
 # This will be displayed in your intro
 short_bio: >
-    Welcome! This is <span>accent</span>, a mobile friendly theme for Jekyll. The main feature of this
-    theme is that you can change the accent color. Refer the
-    <a class="underline different-highlight" href="http://ankitsultana.com/accent/documentation.html">
-        Documentation
-    </a>
-    to know how.
+    This is my bio.
 
-permalink: /:title.html
+permalink: /:title
 
 # Comments are powered by disqus
 comments: true
 about_stub: >
-    
+       Hi this is srub
 
 about_footer: true
 
@@ -48,9 +43,9 @@ paginate: 5
 paginate_path: "/page/:num"
 tracking_id: UA-69243698-7 # GA Tracking ID
 
-# Social Stuff | open graph and twitter cards
-og_image: "images/accent.png" # This will show in facebook thumbnails
-twitter_image: "http://ankitsultana.com/images/accent.png?1234" # This will show in twitter cards
+# Social Stuff 
+og_image: "images/accent.png"
+twitter_image: "http://ankitsultana.com/images/accent.png?1234"
 
 ####################################
 ####################################
