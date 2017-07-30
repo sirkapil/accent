@@ -11,11 +11,9 @@
     <hr />
     <div class="user-footer">
         <div class="copyright alignable pull-left">
-            {% if site.copyright %} 
-                <h3> &copy;  {{ site.copyright }}</h3>
-            {% else %}
-                <h3> &copy;{{ site.title }}</h3>
-            {% endif %}
+           
+                <h4> Social : </h4>
+            
         </div>
         <div class="alignable pull-right">
             <a target="_blank" href="https://twitter.com/{{ site.twitter_username }}" class="button">
@@ -29,8 +27,11 @@ Rss </a>
     <div style="clear:both"></div>
    
     <div class="theme-footer">
-        <p>
-            Built by <a href="http://jekyllrb.com/" class="different-highlight underline">Jekyll</a> with Love in INDIA</a>
+          {% if site.copyright %}
+<p style="color:black">
+            Built by <a href="http://jekyllrb.com/" class="different-highlight underline">Jekyll</a> with Love in INDIA</a><br/>
+ &copy; {{ site.copyright }}
+ {% else %}{{ site.title }}{% endif %}
         </p>
     </div>
 </footer>
