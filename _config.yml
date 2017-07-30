@@ -9,7 +9,7 @@ site_heading: >
     Kapil <span class="faded">'s blog</span>
 
 email: your@email.com
-author: Kapil
+author: Kapil Chaudhary
 # This description will show up in google search results
 # (for index page) etc.
 description: >
@@ -43,9 +43,9 @@ about_stub: >
 
 about_footer: true
 
-twitter_username: AnkitSultana
-github_username: yourgithub
-facebook_id: yourusername
+twitter_username: kapil_rc
+github_username: sirkapil
+facebook_id: kapil05021996
 
 favicon: true
 favicon_location: "images/favicon.ico"
