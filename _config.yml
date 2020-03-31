@@ -29,7 +29,7 @@ comments: true
 about_stub: >
        Hi this is srub
 
-about_footer: true
+about_footer: false
 
 twitter_username: kapil_rc
 github_username: sirkapil
@@ -57,7 +57,6 @@ twitter_image: ""
 
 markdown: kramdown
 
-mathjax: true
 
 gems:
     - jekyll-paginate
