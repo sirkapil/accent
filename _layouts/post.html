@@ -42,7 +42,7 @@ MathJax.Hub.Config({
   TeX: {
   extensions: ["noErrors.js"],
   noErrors: {
-    inlineDelimiters: ["",""],   // or ["$","$"] or ["\\(","\\)"]
+    inlineDelimiters: ["",""], ["$","$"], ["\\(","\\)"]
     multiLine: true,             // false for TeX on all one line
     style: {
       "font-size":   "90%",
@@ -65,10 +65,10 @@ MathJax.Hub.Config({
     <div class="post-date">
         <time>{{ page.date | date: '%B %d, %Y '}}</time>
     </div>
-    <h1 class="post-title">{{ page.title }}</h1>
+    <h1 class="post-title">{{ page.title }}</h1><hr>
     {{ content }}
 </div>
-<hr />
+
 <div class="container">
     {% include share.html %}
 </div>
