@@ -5,7 +5,7 @@ title:  Question on Heat equation
 
 ## Question 
 
-![question](./Chegg/phpA9BWvw.png) 
+![question](../Chegg/phpA9BWvw.png) 
 
 
 
