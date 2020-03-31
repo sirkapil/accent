@@ -57,6 +57,8 @@ twitter_image: ""
 
 markdown: kramdown
 
+mathjax: true
+
 gems:
     - jekyll-paginate
 
