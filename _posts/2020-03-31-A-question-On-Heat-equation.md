@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  Question on Heat equation
+title:  A question on Heat equation
 ---
 
-## Question 
+## Question:
 
 ![question](../Chegg/phpA9BWvw.png) 
 
